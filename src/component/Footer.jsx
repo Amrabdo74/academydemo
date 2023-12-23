@@ -1,22 +1,56 @@
 import { IoIosArrowUp } from "react-icons/io";
+import logo from "../Images/logo.png";
+import { CiLocationOn } from "react-icons/ci";
+import { CiMobile1 } from "react-icons/ci";
+import { FaFacebook } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-<>
-<footer id="footer">
-    <div
-        className="container py-4 d-flex flex-row-reverse align-items-center justify-content-center justify-content-md-between flex-wrap">
-        <div className="copyright pb-3 pb-md-0">
-            <p>Copyright <script> document.write(new Date().getFullYear());</script> Tag-me . All Rights Reserved | Developed by </p> <a target="_blank" href="https://e-dever.com">E-dever</a>
+    <>
+      <footer id="footer">
+        <div className="container">
+             <div className=" row py-4 d-flex flex-row-reverse align-items-center justify-content-center justify-content-md-between flex-wrap">
+          <div className="col-md-3 col-sm-12 col-lg-3 copyright d-flex flex-column text-center justify-content-center align-items-center    pb-3 pb-md-0">
+            <img src={logo} style={{ width: "50px" }} alt="" />
+            <p className="mt-3">جميع الحقوق محفوظة اكاديمية اقرأ © 2024</p>
+          </div>
+          <div className="col-md-3 col-sm-12 col-lg-3 col-md-3 copyright d-flex flex-column  text-center justify-content-center align-items-center    pb-3 pb-md-0">
+            <p className="mt-3">
+              <CiLocationOn />
+              الرياض، حي العزيزية طريق الملك عبدالله
+            </p>
+            <p className="mt-3">
+              <CiMobile1 />
+              +961 23154863
+            </p>
+          </div>
+          <div className="col-md-3 col-sm-12 col-lg-3 col-lg-3 d-flex flex-column  text-center justify-content-center align-items-center  pb-3 pb-md-0">
+            <div className="footer-icons">
+              <a href="">
+                {" "}
+                <FaFacebook />
+              </a>
+              <a href="">
+                <FaYoutube />{" "}
+              </a>
+              <a href="">
+                {" "}
+                <FaInstagram />
+              </a>
+            </div>
+            <p>لمزيد من المتابعه</p>
+          </div>
         </div>
-        <div className="credits">
-            <a href="/home/TermsAndConditions">سياسة الخصوصية</a>
         </div>
-    </div>
-</footer>
-<a className="go-top"><IoIosArrowUp/></a>
-</>
-  )
-}
+     
+      </footer>
+      <a className="go-top">
+        <IoIosArrowUp />
+      </a>
+    </>
+  );
+};
 
-export default Footer
+export default Footer;

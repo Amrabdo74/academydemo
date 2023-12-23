@@ -1,7 +1,8 @@
 import './cssFile/navbar.css'
 const Service = () => {
   return (
-    <div className="titel text-center mt-5 container">
+    <div className='servece'>
+         <div className="titel  text-center mt-5 container">
       <h2 data-aos="fade-up" >هتلاقي كل اللى انت محتاجه عشان تبدأ كتاجر</h2>
       <p data-aos="fade-up">بنسهلّك كل حاجة عشان توفّر مجهودك في إقناع عملائك بالمنتجات</p>
       <div data-aos="fade-up" className="section-two  row text-center mt-5  ">
@@ -35,6 +36,8 @@ const Service = () => {
         </div>
       </div>
     </div>
+    </div>
+ 
   );
 };
 

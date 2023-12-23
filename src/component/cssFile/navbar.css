@@ -486,8 +486,32 @@ footer .copyright p {
   color: #323232;
   font-weight: 600;
 }
+.servece{
+  background-color: #f2f5fa !important;
+  margin-bottom: 60px;
+  padding: 50px 0;
+}
 .titel .size {
   width: 60px ;
   height: 60px;
   margin-bottom: 20px;
+}
+.titel .coures-icon {
+  color: #694028;
+  width: 60px ;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.coures {
+  margin-bottom: 120px;
+}
+.btn-coures {
+  background-color: #694028 !important;
+  color: #fff !important;
+  margin-top: 50px;
+}
+.footer-icons svg {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
 }
