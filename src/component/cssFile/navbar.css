@@ -515,3 +515,12 @@ footer .copyright p {
   height: 30px;
   margin: 10px;
 }
+.reviwe h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #694028;
+  text-align: center;
+  margin-bottom: 50px;
+}

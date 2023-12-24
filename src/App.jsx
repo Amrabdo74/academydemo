@@ -12,7 +12,8 @@ import Contactus from "./component/Contactus";
 import Footer from "./component/Footer";
 import Slider from "./component/Slider";
 import Service from "./component/Service";
-import Courses from "./component/courses";
+import Courses from "./component/Courses";
+import Testimonial from "./component/Testimonial ";
 function App() {
   useEffect(() => {
     let mainContent = document.getElementById("main-content");
@@ -89,6 +90,7 @@ function App() {
         <Questions />
         <Courses />
         <Service/>
+        <Testimonial/>
         <Contactus />
         <Footer/>
 
