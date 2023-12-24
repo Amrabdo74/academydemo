@@ -4,16 +4,27 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar navbar-expand-lg auto container d-flex align-items-center justify-content-between  ">
-        <div className="logo">
+        <div className="logo d-flex justify-content-between ">
           <a href="#">
             <img src={logo} alt="Logo" />
           </a>
-        </div>   
+        
+        </div>     <button
+          className="navbar-toggler ms-5"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded={true}
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
           <div
           className="collapse navbar-collapse hide  "
           id="navbarSupportedContent"
         >
-          <ul className=" nav-item d-flex  justify-content-between navbar-nav align-items-end mx-auto  ">
+          <ul className=" nav-item d-flex  justify-content-center navbar-nav  mx-auto  ">
             <li className="nav-item">
               <a className=" nav-link active scrollto" href="#who">
                 من نحن
@@ -36,17 +47,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded={true}
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+
    
       </nav>
     </header>
