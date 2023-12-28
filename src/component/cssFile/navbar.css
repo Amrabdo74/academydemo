@@ -106,7 +106,9 @@ nav ul {
 header.sticky .logo img {
   height: 50px;
 }
-
+.header {
+  margin-top: 120px;
+}
 a.login {
   background: #694028;
   color: #fff !important;
@@ -375,12 +377,40 @@ footer .copyright p {
   font-size: 35px !important;
 
 }
-
+.left-phone,
+.whats-app{
+  position: fixed;
+  right: 15px;
+  z-index: 996;
+  background: #694028;
+  color: #fff !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .5s;
+  padding: 0 !important;
+  cursor: pointer;
+  font-size: 25px !important;
+}
+.left-phone {
+  bottom: 105px;
+}
+.whats-app {
+  bottom: 60px;
+}
 .go-top.active {
   display: flex;
 }
 
 .go-top:hover svg {
+  color: #000 !important;
+}
+.whats-app:hover svg {
+  color: #000 !important;
+}.left-phone:hover svg {
   color: #000 !important;
 }
 .titel h2 {
@@ -434,8 +464,10 @@ footer .copyright p {
   text-align: center;
   margin-bottom: 50px;
 }
-@media (max-width: 800px) {
-  .header {
-    margin-top: 120px;
+@media (max-width: 993px) {
+  .nav-icons{
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
   }
 }
