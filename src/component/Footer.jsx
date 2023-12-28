@@ -2,10 +2,10 @@ import { IoIosArrowUp } from "react-icons/io";
 import logo from "../Images/logo.png";
 import { CiLocationOn } from "react-icons/ci";
 import { CiMobile1 } from "react-icons/ci";
-import { FaFacebook } from "react-icons/fa";
+import { FaFacebook, FaPhone, FaWhatsapp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-
+import './cssFile/navbar.css'
 const Footer = () => {
   return (
     <>
@@ -48,6 +48,12 @@ const Footer = () => {
       </footer>
       <a className="go-top">
         <IoIosArrowUp />
+      </a>
+      <a className="left-phone"   href="tel:+966570094500">
+      <FaPhone />
+      </a>
+      <a className="whats-app"   href="https://api.whatsapp.com/send?phone=966570094500" >
+      <FaWhatsapp />
       </a>
     </>
   );
