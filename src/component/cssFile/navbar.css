@@ -396,10 +396,10 @@ footer .copyright p {
   font-size: 25px !important;
 }
 .left-phone {
-  bottom: 105px;
+  top: 123px;
 }
 .whats-app {
-  bottom: 60px;
+  top: 170px;
 }
 .go-top.active {
   display: flex;
